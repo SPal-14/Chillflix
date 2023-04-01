@@ -59,14 +59,7 @@ function Explore() {
     fetchMovies(currentPage + 1);
   };
 
-  useEffect(() => {
-    if (isNearEnd) handlePaginate();
-  }, [isNearEnd]);
-
-  useEffect(() => {
-    setCurrentPage(1);
-    fetchMovies(1);
-  }, [selectedGenres]);
+ 
 
   useEffect(() => {
     fetchAllGenres();
