@@ -35,9 +35,7 @@ function Home() {
     fetchPopularMovies(currentPage + 1);
   };
 
-  useEffect(() => {
-    if (isNearEnd) handlePaginate();
-  }, [isNearEnd]);
+ 
 
   useEffect(() => {
     fetchPopularMovies(1);
