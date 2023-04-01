@@ -1,6 +1,6 @@
 # Chillflix
 Chillflix is a random movie site, similar sort of Netflix type!
-It's basically a frontend, but if executed on a local machine, may perform better!
+It's basically a frontend, but if executed on a local machine, may perform better! ['Explore' button works well]
 Checkout the website at: https://chiilfliiix.onrender.com
 
 How it should appear on PC:
